@@ -1,0 +1,130 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* bootsrap components change */
+.navbar .navbar-brand,.navbar-nav .nav-item .nav-link
+{
+    color:white;
+    font-size: 20px;
+    margin-right:10px ;
+    border-bottom: 4px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+    color:white;
+    border-bottom:2px solid #ff6600;
+}
+.btn-primary
+{
+    background-color: #ff6600;
+}
+.btn-primary:hover
+{
+     background-color: #b44d07;
+}
+/* header part */
+header
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("src/bank.jpg");
+    background-size:cover;
+    height: 80vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.header-main
+{
+    position:absolute;
+    top:40%;
+    left:20%;
+    color:white;
+}
+.header-main-main
+{
+    color:white; 
+    width:250px;
+    height:auto;
+    border-radius: 20px;
+    border: 2px solid #ff6600;
+    background-color: #ff6600;
+    padding:10px 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.header-main-main:hover
+{
+    color:white;
+    background-color: #b44d07;
+    text-decoration: none;
+}
+.header-main-extra
+{
+    color:white;
+    width:250px;
+    border-radius: 20px;
+    border: 2px solid #ff6600;
+    padding:10px 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: transparent;
+}
+.header-main-extra:hover
+{
+    color:white;
+    text-decoration: none;
+    border: 2px solid #ff6600;
+    background-color: #ff6600;
+}
+footer{
+    background-color:  #f2e9e4;
+}
+
+@media screen and (min-width: 0px)
+{
+header
+{
+    height:130vh;
+}
+.header-main
+{
+    top:50%;
+    left:10%;
+}
+.header-main a
+{
+    display: block;
+}
+.header-main-main
+{
+
+    padding:5px 3px;
+}
+.header-main-extra
+{
+    padding:5px 3px;
+
+}
+.middle
+{
+    margin-top: 20px;
+}
+}
+@media screen and (min-width: 768px)
+{
+header
+{
+    height:110vh;
+}
+.header-main
+{
+    top:60%;
+    left:10%;
+}
+.header-main a
+{
+    display: inline-block;
+}

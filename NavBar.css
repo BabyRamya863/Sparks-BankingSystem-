@@ -1,0 +1,22 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar .navbar-brand,.navbar-nav .nav-item .nav-link
+{
+    color:white;
+    font-size: 20px;
+    margin-right:10px ;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+    width:100%;
+    
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+    color:white;
+    border-bottom:2px solid #ff6600 ;
+    text-align: right;
+}
